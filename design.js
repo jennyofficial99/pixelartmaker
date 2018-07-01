@@ -14,7 +14,7 @@ $('td').attr("class", "cells");
  
  $('.cells').click(function(event) {
  var paint = $('#colorPicker').val();
- $('event.target).css('background-color', paint);
+ $(event.target).css('background-color', paint);
       });
    });
      });   
